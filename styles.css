@@ -1,0 +1,334 @@
+
+
+
+/* <!-- Nav Bar --> */
+
+.mobile {
+  display: none;
+}
+
+.head-box {
+  background-image: url("images/desktop/image-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 5% 5% 15% 5% !important;
+}
+
+.big-heading {
+  font-family: 'Fraunces', serif;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  color: white;
+  padding: 4rem 0 4rem 0;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  opacity: 60% !important;
+}
+
+.contact-link {
+  color: black !important;
+}
+
+.arrow {
+  padding-bottom: 4rem;
+}
+
+.nav-link {
+  color: white;
+  margin: 20px;
+}
+
+.contact-link {
+  color: black;
+  padding: 0.5rem 1.2rem !important;
+  background-color: white;
+  border-radius: 20px;
+}
+
+
+  /* <!-- Features --> */
+
+.standout-side-img, .transform-side-img {
+  padding: 0 !important;
+}
+
+.transform-img, .standout-img {
+  width: 100%;
+}
+
+.transform-text, .standout-text {
+  padding: 8rem !important;
+  text-align: left;
+}
+
+.services-text {
+  font-family: 'Fraunces', serif;
+  font-size: 2.5rem;
+  width: 70%;
+  margin-bottom: 2rem;
+}
+
+.desc-text {
+  font-family: 'Barlow', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+  color: hsl(210, 4%, 67%);
+}
+
+.learn-more {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.transform-text .learn-more {
+  text-decoration: underline solid hsl(51, 100%, 49%) 20%;
+}
+
+.standout-text .learn-more {
+  text-decoration: underline solid hsl(7, 99%, 70%) 20%;
+}
+
+
+
+/* <!-- What we do (job) --> */
+
+.graphic, .photograph {
+  padding: 0 !important;
+  position: relative;
+}
+
+.graphic-img, .photograph-img {
+  width: 100%;
+}
+
+.job-title {
+  font-family: 'Fraunces', serif;
+  position: absolute;
+  top: 60%;
+  left: 35%;
+}
+
+.job-desc {
+  font-family: 'Barlow', sans-serif;
+  position: absolute;
+  top: 70%;
+  left: 25%;
+  width: 50%;
+  text-align: center;
+  line-height: 2;
+  color: hsl(167, 40%, 24%);
+}
+
+.photograph .job-desc {
+  width: 45%;
+  color: hsl(198, 62%, 26%);
+}
+
+
+  /* <!-- TESTIMONIALS --> */
+
+.rounded-circle {
+  margin: 4rem 0;
+}
+
+.testimonial {
+  padding: 10% !important;
+  text-align: center;
+}
+
+.testimonial-heading, .username {
+  font-family: 'Fraunces', serif;
+}
+
+.testimonial-heading {
+  letter-spacing: 5px;
+}
+
+.profile-desc, .sub-title {
+  font-family: 'Barlow', sans-serif;
+}
+
+.username {
+  margin-bottom: 0.3rem;
+}
+
+.profile-desc {
+  line-height: 2;
+  width: 80%;
+  color: hsl(213, 9%, 39%);
+  margin: 0 auto 3rem auto;
+}
+
+.testimonial-heading, .sub-title {
+  color: hsl(210, 4%, 67%);
+}
+
+
+/* <!-- GALLERY --> */
+
+.gallery {
+  padding: 0 !important;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+
+/* <!-- FOOTER --> */
+
+#footer {
+  text-align: center;
+  background-color: hsl(168, 34%, 70%);
+  padding: 4%;
+}
+
+.sunny {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: hsl(167, 40%, 24%);
+}
+
+.footer-sectiom a {
+  color: hsl(168, 34%, 36%);
+  margin: 1rem;
+}
+
+.footer-sectiom a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.social-icons {
+  cursor: pointer;
+  margin: 3rem 1rem;
+  color: hsl(168, 34%, 36%);
+}
+
+.social-icons:hover {
+  color: white;
+}
+
+
+
+@media (max-width: 770px) {
+  .head-box {
+    background-image: url("images/desktop/image-header.jpg");
+    background-position: center;
+    padding: 0 !important;
+  }
+
+  .arrow {
+    padding-bottom: 6rem;
+  }
+
+  .edge-arrow {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid white;
+    border-left: 100px solid transparent;
+    position: absolute;
+    top: -2rem;
+    right: 0;
+  }
+
+  .flex-sm-column-reverse {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+    -ms-flex-direction: column-reverse !important;
+    flex-direction: column-reverse !important;
+  }
+
+  .big-heading {
+    font-size: 2rem;
+    padding: 0.5rem 0 2rem 0;
+  }
+
+  .navbar-nav {
+    background-color: white;
+    color: black !important;
+    margin-top: 3rem;
+    position: relative;
+  }
+
+  .nav-link {
+    color: black !important;
+  }
+
+  .contact-link {
+    width: 30%;
+    margin: 1.2rem auto;
+    background-color: hsl(51, 100%, 49%);
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  .navbar{
+    padding: 1.5rem 1rem !important;
+  }
+
+  .big-heading {
+    font-size: 2.5rem;
+    padding: 2rem 0 2rem 0;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .arrow {
+    padding-bottom: 10rem;
+  }
+
+  .transform-text, .standout-text {
+    padding: 3rem !important;
+    text-align: center;
+  }
+
+  .services-text {
+    width: 100%;
+  }
+
+  .job-title {
+    left: 20%;
+  }
+
+  .job-desc {
+    left: 10%;
+    width: 80%;
+  }
+
+  .photograph .job-desc {
+    width: 75%;
+  }
+
+  .testimonial-heading {
+    font-size: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .rounded-circle {
+    margin: 2rem 0;
+  }
+
+  .profile-desc {
+    margin: 0 auto 2rem auto;
+  }
+
+  .sub-title {
+    margin-bottom: 4rem;
+  }
+}
